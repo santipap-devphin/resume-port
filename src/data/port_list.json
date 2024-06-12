@@ -1,0 +1,596 @@
+[
+    {
+        "id":1,
+        "page":[ "เข้าสู่ระบบ","รายงานยอดขาย" , "สั้งซื้อสินค้าใหม่" , "รายละเอียดสั้งซื้อสินค้า", "ตรวจสอบสลิปโอนเงิน", "ตรวจสอบรายการถูกต้อง"
+                ,"รายงานสินค้ามีปัญหา","ยกเลิกรายการ","รายชื่อลูกค้า","ปรับปรุงข้อมูลลูกค้า","เพิ่มสินค้า","เพิ่มช่องทางชำระเงิน","เพิ่มข่าว","เพิ่มหน่วย","รายการผลิตภัณฑ์","ปรับปรุงผลิตภัณฑ์"
+                ,"รายการรูปบนเว็บ","ปรับปรุงรูปบนเว็บ","รายการรูปแบรนเนอร์","รายการข่าว","ปรับปรุงข่าว"
+              ],
+        "imglist":
+        [
+           {
+            "imgid":1,
+            "hpage":"../image/incha/subbackend/plogin.png",
+            "isrc" : "../image/incha/subbackend/bincha-p1.webp",
+            "iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p1.webp",
+            "w":"1183",
+            "h":"561"
+           
+            } ,
+           { "imgid":2,"isrc" : "../image/incha/subbackend/bincha-p2.webp", "iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p2.webp" ,"w":"1183", "h":"561" } , 
+           { "imgid":3,"isrc" : "../image/incha/subbackend/bincha-p3.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p3.webp","w":"1183", "h":"561" } , 
+           { "imgid":4,"isrc" : "../image/incha/subbackend/bincha-p4.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p4.webp","w":"1183", "h":"710" } , 
+           { "imgid":5,"isrc" : "../image/incha/subbackend/bincha-p5.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p5.webp","w":"1183", "h":"1026" } , 
+           { "imgid":6,"isrc" : "../image/incha/subbackend/bincha-p6.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p6.webp","w":"1183", "h":"1015" } , 
+           { "imgid":7,"isrc" : "../image/incha/subbackend/bincha-p7.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p7.webp","w":"1183", "h":"983" } , 
+           { "imgid":8,"isrc" : "../image/incha/subbackend/bincha-p8.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p8.webp","w":"1183", "h":"667" } ,
+           { "imgid":9,"isrc" : "../image/incha/subbackend/bincha-p9.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p9.webp","w":"1183", "h":"561" } ,
+           { "imgid":10,"isrc" : "../image/incha/subbackend/bincha-p10.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p10.webp","w":"1183", "h":"561" } ,
+           { "imgid":11,"isrc" : "../image/incha/subbackend/bincha-p11.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p11.webp","w":"1183", "h":"561" } ,
+           { "imgid":12,"isrc" : "../image/incha/subbackend/bincha-p12.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p12.webp","w":"1183", "h":"561" } ,
+           { "imgid":13,"isrc" : "../image/incha/subbackend/bincha-p13.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p13.webp","w":"1183", "h":"552" } , 
+           { "imgid":14,"isrc" : "../image/incha/subbackend/bincha-p14.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p14.webp","w":"1183", "h":"561" } ,
+           { "imgid":15,"isrc" : "../image/incha/subbackend/bincha-p15.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p15.webp","w":"1183", "h":"1547" } , 
+           { "imgid":16,"isrc" : "../image/incha/subbackend/bincha-p15-1.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p15-1.webp","w":"1183", "h":"713" } ,
+           { "imgid":17,"isrc" : "../image/incha/subbackend/bincha-p16.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p16.webp","w":"1183", "h":"606" }  , 
+           { "imgid":18,"isrc" : "../image/incha/subbackend/bincha-p17.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p17.webp","w":"1183", "h":"561" } ,
+           { "imgid":19,"isrc" : "../image/incha/subbackend/bincha-p18.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p18.webp","w":"1183", "h":"606" } ,
+           { "imgid":20,"isrc" : "../image/incha/subbackend/bincha-p19.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p19.webp","w":"1183", "h":"561" } ,
+           { "imgid":21,"isrc" : "../image/incha/subbackend/bincha-p20.webp","iserver" : "https://devphin.tech/port/incha/subbackend/bincha-p20.webp","w":"1183", "h":"594" } 
+      
+        
+        ]
+    },
+    {
+        "id":2,
+        "page":[ "หน้าแรก","เกี่ยวกับเรา" ,"รายการสินค้า", "ใบรับรอง" , "ข่าวสาร", "รายละเอียดข่าว", "แจ้งชำระเงิน"
+                ,"ติดต่อเรา","รายละเอียดสินค้า","ตระกร้าสินค้า","เช็คเอ้าท์","ส่งอีเมล์ยืนยัน"
+              ],
+        "imglist":
+        [
+           {
+            "imgid":1,
+            "isrc" : "../image/incha/subfrontend/incha-page1.webp",
+            "iserver": "https://devphin.tech/port/incha/subfrontend/incha-page1.webp",
+            "w":"1183",
+            "h":"2528"
+             } ,
+           { "imgid":2,"isrc":"../image/incha/subfrontend/incha-page2.webp", "iserver" : "https://devphin.tech/port/incha/subfrontend/incha-page2.webp" ,"w":"1183", "h":"1492" } , 
+           { "imgid":3,"isrc":"../image/incha/subfrontend/incha-page3.webp","iserver" : "https://devphin.tech/port/incha/subfrontend/incha-page3.webp","w":"1183", "h":"2378" } , 
+           { "imgid":4,"isrc":"../image/incha/subfrontend/incha-page4.webp" , "iserver" : "https://devphin.tech/port/incha/subfrontend/incha-page4.webp","w":"1183", "h":"2021" } , 
+           { "imgid":5,"isrc":"../image/incha/subfrontend/incha-page5.webp" , "iserver" : "https://devphin.tech/port/incha/subfrontend/incha-page5.webp","w":"1183", "h":"2213" } , 
+           { "imgid":6,"isrc":"../image/incha/subfrontend/incha-page6.webp" , "iserver" : "https://devphin.tech/port/incha/subfrontend/incha-page6.webp","w":"1183", "h":"1204" } ,
+           { "imgid":7,"isrc":"../image/incha/subfrontend/incha-page7.webp" , "iserver" : "https://devphin.tech/port/incha/subfrontend/incha-page7.webp","w":"1183", "h":"1038" } ,
+           { "imgid":8,"isrc":"../image/incha/subfrontend/incha-page8.webp" , "iserver" : "https://devphin.tech/port/incha/subfrontend/incha-page8.webp","w":"1183", "h":"1137" } ,
+           { "imgid":9,"isrc":"../image/incha/subfrontend/incha-page9.webp" , "iserver" : "https://devphin.tech/port/incha/subfrontend/incha-page9.webp","w":"1183", "h":"831" } ,
+           { "imgid":10,"isrc":"../image/incha/subfrontend/incha-page10.webp" , "iserver" : "https://devphin.tech/port/incha/subfrontend/incha-page10.webp","w":"1183", "h":"933" } ,
+           { "imgid":11,"isrc":"../image/incha/subfrontend/incha-page11.webp" , "iserver" : "https://devphin.tech/port/incha/subfrontend/incha-page11.webp","w":"1183", "h":"898" } , 
+           { "imgid":12,"isrc":"../image/incha/subfrontend/incha-page12.webp" ,"iserver" : "https://devphin.tech/port/incha/subfrontend/incha-page12.webp","w":"1183", "h":"942" } 
+        ]
+    },
+    {
+        "id":3,
+        "page":[ "เข้าสู่ระบบ","แดชบอร์ด" ,"ลิงก์ตัวแทน", "ข้อมูลลูกค้าเครือข่าย" , "ข้อมูลส่วนตัว"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/top5insure/backendagent/pbackendtop5-1.webp","iserver" : "https://devphin.tech/port/top5insure/backendagent/pbackendtop5-1.webp","w":"1183","h":"1158" } ,
+           { "imgid":2,"isrc":"../image/top5insure/backendagent/pbackendtop5-2.webp", "iserver" : "https://devphin.tech/port/top5insure/backendagent/pbackendtop5-2.webp" ,"w":"1183", "h":"1526" } , 
+           { "imgid":3,"isrc":"../image/top5insure/backendagent/pbackendtop5-3.webp","iserver" : "https://devphin.tech/port/top5insure/backendagent/pbackendtop5-3.webp","w":"1183", "h":"657" } , 
+           { "imgid":4,"isrc":"../image/top5insure/backendagent/pbackendtop5-4.webp" , "iserver" : "https://devphin.tech/port/top5insure/backendagent/pbackendtop5-4.webp","w":"1183", "h":"1272" } , 
+           { "imgid":5,"isrc":"../image/top5insure/backendagent/pbackendtop5-5.webp" , "iserver" : "https://devphin.tech/port/top5insure/backendagent/pbackendtop5-5.webp","w":"1183", "h":"722" } 
+         
+        ]
+    },
+    {
+        "id":4,
+        "page":[ "เข้าสู่ระบบ","แดชบอร์ด" ,"ต่ออายุ", "ประวัติสั้งซื้อ" , "รายละเอียดกรมธรรม์", "ข้อมูลส่วนตัว", "ปรับปรุงข้อมูลส่วนตัว"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/top5insure/backenduser/pbackendtopuser5-1.webp","iserver" : "https://devphin.tech/port/top5insure/backenduser/pbackendtopuser5-1.webp","w":"1183","h":"1158" } ,
+           { "imgid":2,"isrc":"../image/top5insure/backenduser/pbackendtopuser5-2.webp", "iserver" : "https://devphin.tech/port/top5insure/backenduser/pbackendtopuser5-2.webp" ,"w":"1183", "h":"983" } , 
+           { "imgid":3,"isrc":"../image/top5insure/backenduser/pbackendtopuser5-3.webp","iserver" : "https://devphin.tech/port/top5insure/backenduser/pbackendtopuser5-3.webp","w":"1183", "h":"776" } , 
+           { "imgid":4,"isrc":"../image/top5insure/backenduser/pbackendtopuser5-4.webp" , "iserver" : "https://devphin.tech/port/top5insure/backenduser/pbackendtopuser5-4.webp","w":"1183", "h":"806" } , 
+           { "imgid":5,"isrc":"../image/top5insure/backenduser/pbackendtopuser5-5.webp" , "iserver" : "https://devphin.tech/port/top5insure/backenduser/pbackendtopuser5-5.webp","w":"1183", "h":"806" } ,
+           { "imgid":6,"isrc":"../image/top5insure/backenduser/pbackendtopuser5-6.webp" , "iserver" : "https://devphin.tech/port/top5insure/backenduser/pbackendtopuser5-6.webp","w":"1183", "h":"821" } , 
+           { "imgid":7,"isrc":"../image/top5insure/backenduser/pbackendtopuser5-7.webp" , "iserver" : "https://devphin.tech/port/top5insure/backenduser/pbackendtopuser5-7.webp","w":"1183", "h":"821" } 
+         
+        ]
+    },
+    {
+        "id":5,
+        "page":[ "แดชบอร์ด","ข้อมูลผู้ใช้" ,"เพิ่มผู้ใช้", "ข่าวสาร" , "เพิ่มข่าวสาร", "แก้ไขข่าวสาร", "สมัครสมาชิก"
+                ,"สมัครสมาชิก Foas","รายการซื้อประกัน(ใหม่)","รายการซื้อประกัน(ดำเนินการ)","รายการซื้อประกัน(ซื้อสำเร็จ)","รายการซื้อประกัน(ยกเลิก)"
+                ,"รายการซื้อประกันโควิด(ใหม่)","รายการซื้อประกันโควิด(ดำเนินการ)","รายการซื้อประกันโควิด(ซื้อสำเร็จ)","รายการซื้อประกันโควิด(ยกเลิก)"
+                ,"ผลิตภัณฑ์ประกันรถ","ปรับปรุงผลิตภัณฑ์ประกันรถ","ผลิตภัณฑ์ประกันโควิด","ปรับปรุงผลิตภัณฑ์ประกันโควิด","ลูกค้าสนใจ","ลูกค้าติดตาม"
+                ,"ตั้งค่ายี่ห้อรถ","ปรับปรุงการตั้งค่ายี่ห้อรถ","ตั้งค่ารุ่นรถ","ปรับปรุงการตั้งค่ารุ่นรถ"
+              ],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/top5insure/backendadmin/backendadmintop5-1.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-1.webp","w":"1183","h":"654" } ,
+           { "imgid":2,"isrc":"../image/top5insure/backendadmin/backendadmintop5-2.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-2.webp","w":"1183","h":"1434" } ,
+           { "imgid":3,"isrc":"../image/top5insure/backendadmin/backendadmintop5-3.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-3.webp","w":"1183","h":"559" } ,
+           { "imgid":4,"isrc":"../image/top5insure/backendadmin/backendadmintop5-4.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-4.webp","w":"1183","h":"602" } ,
+           { "imgid":5,"isrc":"../image/top5insure/backendadmin/backendadmintop5-5.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-5.webp","w":"1183","h":"660" } ,
+           { "imgid":6,"isrc":"../image/top5insure/backendadmin/backendadmintop5-6.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-6.webp","w":"1183","h":"983" } ,
+           { "imgid":7,"isrc":"../image/top5insure/backendadmin/backendadmintop5-7.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-7.webp","w":"1183","h":"887" } ,
+           { "imgid":8,"isrc":"../image/top5insure/backendadmin/backendadmintop5-8.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-8.webp","w":"1183","h":"1939" } ,
+           { "imgid":9,"isrc":"../image/top5insure/backendadmin/backendadmintop5-9.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-9.webp","w":"1183","h":"681" } ,
+           { "imgid":10,"isrc":"../image/top5insure/backendadmin/backendadmintop5-10.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-10.webp","w":"1183","h":"594" } ,
+           { "imgid":11,"isrc":"../image/top5insure/backendadmin/backendadmintop5-11.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-11.webp","w":"1183","h":"629" } ,
+           { "imgid":12,"isrc":"../image/top5insure/backendadmin/backendadmintop5-12.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-12.webp","w":"1183","h":"598" } ,
+           { "imgid":13,"isrc":"../image/top5insure/backendadmin/backendadmintop5-13.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-13.webp","w":"1183","h":"1156" } ,
+           { "imgid":14,"isrc":"../image/top5insure/backendadmin/backendadmintop5-14.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-14.webp","w":"1183","h":"850" } ,
+           { "imgid":15,"isrc":"../image/top5insure/backendadmin/backendadmintop5-15.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-15.webp","w":"1183","h":"1979" } ,
+           { "imgid":16,"isrc":"../image/top5insure/backendadmin/backendadmintop5-16.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-16.webp","w":"1183","h":"1469" } ,
+           { "imgid":17,"isrc":"../image/top5insure/backendadmin/backendadmintop5-17.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-17.webp","w":"1183","h":"867" } ,
+           { "imgid":18,"isrc":"../image/top5insure/backendadmin/backendadmintop5-18.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-18.webp","w":"1183","h":"867" } ,
+           { "imgid":19,"isrc":"../image/top5insure/backendadmin/backendadmintop5-19.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-19.webp","w":"1183","h":"593" } ,
+           { "imgid":20,"isrc":"../image/top5insure/backendadmin/backendadmintop5-20.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-20.webp","w":"1183","h":"561" } ,
+           { "imgid":21,"isrc":"../image/top5insure/backendadmin/backendadmintop5-21.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-21.webp","w":"1183","h":"592" } ,
+           { "imgid":22,"isrc":"../image/top5insure/backendadmin/backendadmintop5-22.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-22.webp","w":"1183","h":"561" } ,
+           { "imgid":23,"isrc":"../image/top5insure/backendadmin/backendadmintop5-23.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-23.webp","w":"1183","h":"585" } ,
+           { "imgid":24,"isrc":"../image/top5insure/backendadmin/backendadmintop5-24.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-24.webp","w":"1183","h":"585" } ,
+           { "imgid":25,"isrc":"../image/top5insure/backendadmin/backendadmintop5-25.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-25.webp","w":"1183","h":"619" } ,
+           { "imgid":26,"isrc":"../image/top5insure/backendadmin/backendadmintop5-26.webp","iserver" : "https://devphin.tech/port/top5insure/backendadmin/backendadmintop5-26.webp","w":"1183","h":"620" } 
+        ]
+    },
+    {
+        "id":6,
+        "page":[ "หน้าแรก","ประกันรถยนต์" ,"ราคาประกันรถ", "ข้อมูลกรมธรรม์รถ" , "กรอกข้อมูลรถยนต์", "เจ้าหน้าที่ติดต่อกลับ", "ประกันโควิด", "ประกันโควิดทิพยะ", "ประกันโควิดวิริยะ","ประกันชีวิต&สุขภาพ"
+        ,"ประกันอุบัติเหตุ BDMS ","ลงทะเบียน FOAs","แนะนำเพือน","เกี่ยวกับเรา","ข่าวสาร","รายละเอียดข่าว","แท๊กข่าวสาร","ค้นหากรมธรรม์","ข้อมูลชำระเงิน","ติดต่อเรา","สมัครสมาชิก","สมัครอบรม"
+        ],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/top5insure/frontend/top-front-1.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-1.webp","w":"1183","h":"4283" },
+           { "imgid":2,"isrc":"../image/top5insure/frontend/top-front-2.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-2.webp","w":"1183","h":"2326" },
+           { "imgid":3,"isrc":"../image/top5insure/frontend/top-front-3.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-3.webp","w":"1183","h":"1319" },
+           { "imgid":4,"isrc":"../image/top5insure/frontend/top-front-4.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-4.webp","w":"1183","h":"1530" },
+           { "imgid":5,"isrc":"../image/top5insure/frontend/top-front-5.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-5.webp","w":"1183","h":"1530" },
+           { "imgid":6,"isrc":"../image/top5insure/frontend/top-front-6.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-6.webp","w":"1183","h":"1530" },
+           { "imgid":7,"isrc":"../image/top5insure/frontend/top-front-7.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-7.webp","w":"1183","h":"1233" },
+           { "imgid":8,"isrc":"../image/top5insure/frontend/top-front-8.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-8.webp","w":"1183","h":"3683" },
+           { "imgid":9,"isrc":"../image/top5insure/frontend/top-front-9.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-9.webp","w":"1183","h":"3558" },
+           { "imgid":10,"isrc":"../image/top5insure/frontend/top-front-10.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-10.webp","w":"1183","h":"4722" },
+           { "imgid":11,"isrc":"../image/top5insure/frontend/top-front-11.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-11.webp","w":"1183","h":"2956" },
+           { "imgid":12,"isrc":"../image/top5insure/frontend/top-front-12.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-12.webp","w":"1183","h":"1579" },
+           { "imgid":13,"isrc":"../image/top5insure/frontend/top-front-13.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-13.webp","w":"1183","h":"4281" },
+           { "imgid":14,"isrc":"../image/top5insure/frontend/top-front-14.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-14.webp","w":"1183","h":"2381" },
+           { "imgid":15,"isrc":"../image/top5insure/frontend/top-front-15.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-15.webp","w":"1183","h":"2065" },
+           { "imgid":16,"isrc":"../image/top5insure/frontend/top-front-16.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-16.webp","w":"1183","h":"1845" },
+           { "imgid":17,"isrc":"../image/top5insure/frontend/top-front-17.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-17.webp","w":"1183","h":"2057" },
+           { "imgid":18,"isrc":"../image/top5insure/frontend/top-front-18.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-18.webp","w":"1183","h":"2336" },
+           { "imgid":19,"isrc":"../image/top5insure/frontend/top-front-19.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-19.webp","w":"1183","h":"1157" },
+           { "imgid":20,"isrc":"../image/top5insure/frontend/top-front-20.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-20.webp","w":"1183","h":"1540" },
+           { "imgid":21,"isrc":"../image/top5insure/frontend/top-front-21.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-21.webp","w":"1183","h":"1350" },
+           { "imgid":22,"isrc":"../image/top5insure/frontend/top-front-22.webp","iserver" : "https://devphin.tech/port/top5insure/frontend/top-front-22.webp","w":"1183","h":"1107" }
+         
+        ]
+    },
+    {
+        "id":7,
+        "page":[ "หน้าแรก","เกี่ยวกับ" ,"บริการ", "ติดต่อเรา"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/webdesign/easylife/easyfront1.webp","iserver" : "https://devphin.tech/port/webdesign/easylife/easyfront1.webp","w":"1183","h":"3362" } ,
+           { "imgid":2,"isrc":"../image/webdesign/easylife/easyfront2.webp", "iserver" : "https://devphin.tech/port/webdesign/easylife/easyfront2.webp" ,"w":"1183", "h":"928" } , 
+           { "imgid":3,"isrc":"../image/webdesign/easylife/easyfront3.webp","iserver" : "https://devphin.tech/port/webdesign/easylife/easyfront3.webp","w":"1183", "h":"2166" } , 
+           { "imgid":4,"isrc":"../image/webdesign/easylife/easyfront4.webp" , "iserver" : "https://devphin.tech/port/webdesign/easylife/easyfront4.webp","w":"1183", "h":"882" } 
+        ]
+    },
+    {
+        "id":8,
+        "page":[ "หน้าแรก","เช็คราคาประกัน" ,"โปรโมชั่น", "เกี่ยวกับเรา", "ประกันภัยประเภทอื่น", "รายละเอียดประกันภัยอื่น", "บทความ", "ติดต่อเรา", "สมัครสมาชิก", "เข้าสู่ระบบ", "ที่อยู่", "เปลื่ยนรหัสผ่าน", "ต่ออายุกรมธรรม์", "ข้อมูลกรมธรรม์", "แจ้งชำระ"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/webdesign/insure/insurefront1.webp","iserver" : "https://devphin.tech/port/webdesign/insure/insurefront1.webp","w":"1183","h":"2980" } ,
+           { "imgid":2,"isrc":"../image/webdesign/insure/insurefront2.webp","iserver" : "https://devphin.tech/port/webdesign/insure/insurefront2.webp","w":"1183","h":"2402" } ,
+           { "imgid":3,"isrc":"../image/webdesign/insure/insurefront3.webp","iserver" : "https://devphin.tech/port/webdesign/insure/insurefront3.webp","w":"1183","h":"787" } ,
+           { "imgid":4,"isrc":"../image/webdesign/insure/insurefront4.webp","iserver" : "https://devphin.tech/port/webdesign/insure/insurefront4.webp","w":"1183","h":"1301" } ,
+           { "imgid":5,"isrc":"../image/webdesign/insure/insurefront5.webp","iserver" : "https://devphin.tech/port/webdesign/insure/insurefront5.webp","w":"1183","h":"1683" } ,
+           { "imgid":6,"isrc":"../image/webdesign/insure/insurefront6.webp","iserver" : "https://devphin.tech/port/webdesign/insure/insurefront6.webp","w":"1183","h":"2245" } ,
+           { "imgid":7,"isrc":"../image/webdesign/insure/insurefront7.webp","iserver" : "https://devphin.tech/port/webdesign/insure/insurefront7.webp","w":"1183","h":"814" } ,
+           { "imgid":8,"isrc":"../image/webdesign/insure/insurefront8.webp","iserver" : "https://devphin.tech/port/webdesign/insure/insurefront8.webp","w":"1183","h":"935" } ,
+           { "imgid":9,"isrc":"../image/webdesign/insure/insurefront9.webp","iserver" : "https://devphin.tech/port/webdesign/insure/insurefront9.webp","w":"1183","h":"962" } ,
+           { "imgid":10,"isrc":"../image/webdesign/insure/insurefront10.webp","iserver" : "https://devphin.tech/port/webdesign/insure/insurefront10.webp","w":"1183","h":"810" },
+           { "imgid":11,"isrc":"../image/webdesign/insure/insurefront11.webp","iserver" : "https://devphin.tech/port/webdesign/insure/insurefront11.webp","w":"1183","h":"976" },
+           { "imgid":12,"isrc":"../image/webdesign/insure/insurefront12.webp","iserver" : "https://devphin.tech/port/webdesign/insure/insurefront12.webp","w":"1183","h":"819" } ,
+           { "imgid":13,"isrc":"../image/webdesign/insure/insurefront13.webp","iserver" : "https://devphin.tech/port/webdesign/insure/insurefront13.webp","w":"1183","h":"840" } ,
+           { "imgid":14,"isrc":"../image/webdesign/insure/insurefront14.webp","iserver" : "https://devphin.tech/port/webdesign/insure/insurefront14.webp","w":"1183","h":"845" } ,
+           { "imgid":15,"isrc":"../image/webdesign/insure/insurefront15.webp","iserver" : "https://devphin.tech/port/webdesign/insure/insurefront15.webp","w":"1183","h":"918" } 
+          
+        ]
+    },
+    {
+        "id":9,
+        "page":[ "เข้าสู่ระบบ","แดชบอร์ด" ,"ออเดอร์(ใหม่)", "ออเดอร์(รอจัดส่ง)", "ออเดอร์(ยังไม่ชำระ)", "ออเดอร์(ยกเลิก)", "พัสดุ(เรียบร้อย)", "พัสดุ(มีปัญหา)", "แชทข้อความ", "รายงานยอดขาย"
+        , "รายงานยอดขายตามสินค้า", "หมวดหมู่สินค้า", "เพิ่มหมวดหมู่", "แก้ไขหมวดหมู่", "หน่วยสินค้า", "เพิ่มหน่วย", "แก้ไขหน่วย", "รายการสินค้า", "เพิ่มสินค้า", "แก้ไขสินค้า", "การจัดส่ง"
+        , "เพิ่มการจัดส่ง", "แก้ไขการจัดส่ง", "บทความ", "เพิ่มบทความ", "แก้ไขบทความ", "โปรโมชั่น", "เพิ่มโปรโมชั่น", "แก้ไขโปรโมชั่น", "วิธีชำระเงิน", "เพิ่มวิธีชำระเงิน", "แก้ไขวิธีชำระเงิน"
+        , "คูปอง", "เพิ่มคูปอง", "แก้ไขคูปอง", "แท๊กข้อความ", "เพิ่มแท๊ก", "แก้ไขแท๊ก", "รายการติดต่อ", "รายการติดตาม"
+         ],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad1.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad1.webp","w":"1183","h":"571" } ,
+           { "imgid":2,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad2.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad2.webp","w":"1183","h":"911" } ,
+           { "imgid":3,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad3.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad3.webp","w":"1183","h":"974" } ,
+           { "imgid":4,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad4.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad4.webp","w":"1183","h":"868" } ,
+           { "imgid":5,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad5.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad5.webp","w":"1183","h":"1053" } ,
+           { "imgid":6,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad6.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad6.webp","w":"1183","h":"866" } ,
+           { "imgid":7,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad7.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad7.webp","w":"1183","h":"561" } ,
+           { "imgid":8,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad8.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad8.webp","w":"1183","h":"561" } ,
+           { "imgid":9,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad9.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad9.webp","w":"1183","h":"620" } ,
+           { "imgid":10,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad10.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad10.webp","w":"1183","h":"718" } ,
+           { "imgid":11,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad11.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad11.webp","w":"1183","h":"561" } ,
+           { "imgid":12,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad12.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad12.webp","w":"1183","h":"664" } ,
+           { "imgid":13,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad13.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad13.webp","w":"1183","h":"741" } ,
+           { "imgid":14,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad14.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad14.webp","w":"1183","h":"839" } ,
+           { "imgid":15,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad15.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad15.webp","w":"1183","h":"561" } ,
+           { "imgid":16,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad16.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad16.webp","w":"1183","h":"561" } ,
+           { "imgid":17,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad17.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad17.webp","w":"1183","h":"561" } ,
+           { "imgid":18,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad18.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad18.webp","w":"1183","h":"929" } ,
+           { "imgid":19,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad19.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad19.webp","w":"1183","h":"1149" } ,
+           { "imgid":20,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad20.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad20.webp","w":"1183","h":"1606" } ,
+           { "imgid":21,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad21.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad21.webp","w":"1183","h":"561" } ,
+           { "imgid":22,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad22.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad22.webp","w":"1183","h":"561" } ,
+           { "imgid":23,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad23.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad23.webp","w":"1183","h":"561" } ,
+           { "imgid":24,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad24.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad24.webp","w":"1183","h":"561" } ,
+           { "imgid":25,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad25.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad25.webp","w":"1183","h":"959" } ,
+           { "imgid":26,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad26.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad26.webp","w":"1183","h":"1050" } ,
+           { "imgid":27,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad27.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad27.webp","w":"1183","h":"561" } ,
+           { "imgid":28,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad28.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad28.webp","w":"1183","h":"1009" } ,
+           { "imgid":29,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad29.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad29.webp","w":"1183","h":"1039" } ,
+           { "imgid":30,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad30.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad30.webp","w":"1183","h":"577" } ,
+           { "imgid":31,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad31.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad31.webp","w":"1183","h":"748" } ,
+           { "imgid":32,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad32.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad32.webp","w":"1183","h":"845" } ,
+           { "imgid":33,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad33.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad33.webp","w":"1183","h":"561" } ,
+           { "imgid":34,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad34.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad34.webp","w":"1183","h":"571" } ,
+           { "imgid":35,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad35.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad35.webp","w":"1183","h":"571" } ,
+           { "imgid":36,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad36.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad36.webp","w":"1183","h":"561" } ,
+           { "imgid":37,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad37.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad37.webp","w":"1183","h":"561" } ,
+           { "imgid":38,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad38.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad38.webp","w":"1183","h":"561" } ,
+           { "imgid":39,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad39.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad39.webp","w":"1183","h":"561" } ,
+           { "imgid":40,"isrc":"../image/pimpacosmetic/backendadmin/pimpabackad40.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backendadmin/pimpabackad40.webp","w":"1183","h":"561" } 
+          ]
+    },
+    {
+        "id":10,
+        "page":[ "เข้าสู่ระบบ","ลืมรหัสผ่าน" ,"ที่อยู่", "ข้อมูลส่วนตัว", "เปลื่ยนรหัสผ่าน", "คำสั้งซื้อ(ใหม่)", "คำสั้งซื้อ(แจ้งชำระ)", "คำสั้งซื้อ(ตรวจสอบ)", "คำสั้งซื้อ(จัดส่ง)", "คำสั้งซื้อ(จัดส่งสำเร็จ)", "คำสั้งซื้อ(ยกเลิก)", "แจ้งชำระเงิน", "แชทผู้ดูแลระบบ"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/pimpacosmetic/backenduser/pimpa-backenduser1.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backenduser/pimpa-backenduser1.webp","w":"1183","h":"712" } ,
+           { "imgid":2,"isrc":"../image/pimpacosmetic/backenduser/pimpa-backenduser2.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backenduser/pimpa-backenduser2.webp","w":"1183","h":"561" } ,
+           { "imgid":3,"isrc":"../image/pimpacosmetic/backenduser/pimpa-backenduser3.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backenduser/pimpa-backenduser3.webp","w":"1183","h":"949" } ,
+           { "imgid":4,"isrc":"../image/pimpacosmetic/backenduser/pimpa-backenduser4.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backenduser/pimpa-backenduser4.webp","w":"1183","h":"766" } ,
+           { "imgid":5,"isrc":"../image/pimpacosmetic/backenduser/pimpa-backenduser5.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backenduser/pimpa-backenduser5.webp","w":"1183","h":"693" } ,
+           { "imgid":6,"isrc":"../image/pimpacosmetic/backenduser/pimpa-backenduser6.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backenduser/pimpa-backenduser6.webp","w":"1183","h":"1006" } ,
+           { "imgid":7,"isrc":"../image/pimpacosmetic/backenduser/pimpa-backenduser7.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backenduser/pimpa-backenduser7.webp","w":"1183","h":"1006" } ,
+           { "imgid":8,"isrc":"../image/pimpacosmetic/backenduser/pimpa-backenduser8.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backenduser/pimpa-backenduser8.webp","w":"1183","h":"1026" } ,
+           { "imgid":9,"isrc":"../image/pimpacosmetic/backenduser/pimpa-backenduser9.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backenduser/pimpa-backenduser9.webp","w":"1183","h":"1026" } ,
+           { "imgid":10,"isrc":"../image/pimpacosmetic/backenduser/pimpa-backenduser10.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backenduser/pimpa-backenduser10.webp","w":"1183","h":"1602" } ,
+           { "imgid":11,"isrc":"../image/pimpacosmetic/backenduser/pimpa-backenduser11.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backenduser/pimpa-backenduser11.webp","w":"1183","h":"1026" } ,
+           { "imgid":12,"isrc":"../image/pimpacosmetic/backenduser/pimpa-backenduser12.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backenduser/pimpa-backenduser12.webp","w":"1183","h":"853" } ,
+           { "imgid":13,"isrc":"../image/pimpacosmetic/backenduser/pimpa-backenduser13.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/backenduser/pimpa-backenduser13.webp","w":"1183","h":"812" } 
+         ]
+    },
+    {
+        "id":11,
+        "page":[ "หน้าแรก","สินค้า" ,"รายการสินค้า", "ตระกร้าสินค้า", "สั้งซื้อสินค้า", "สนใจสินค้า", "เปรียบเทียบสินค้า", "โปรโมชั่น", "รีวิวสินค้า", "บทความ", "รายละเอียดบทความ", "ติดต่อเรา", "สมัครสมาชิก"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/pimpacosmetic/frontend/web1.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/frontend/web1.webp","w":"1183","h":"2155" },
+           { "imgid":2,"isrc":"../image/pimpacosmetic/frontend/web2.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/frontend/web2.webp","w":"1183","h":"1243" },
+           { "imgid":3,"isrc":"../image/pimpacosmetic/frontend/web3.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/frontend/web3.webp","w":"1183","h":"1567" },
+           { "imgid":4,"isrc":"../image/pimpacosmetic/frontend/web4.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/frontend/web4.webp","w":"1183","h":"1004" },
+           { "imgid":5,"isrc":"../image/pimpacosmetic/frontend/web5.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/frontend/web5.webp","w":"1183","h":"1052" },
+           { "imgid":6,"isrc":"../image/pimpacosmetic/frontend/web6.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/frontend/web6.webp","w":"1183","h":"871" },
+           { "imgid":7,"isrc":"../image/pimpacosmetic/frontend/web7.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/frontend/web7.webp","w":"1183","h":"858" },
+           { "imgid":8,"isrc":"../image/pimpacosmetic/frontend/web8.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/frontend/web8.webp","w":"1183","h":"659" },
+           { "imgid":9,"isrc":"../image/pimpacosmetic/frontend/web9.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/frontend/web9.webp","w":"1183","h":"1689" },
+           { "imgid":10,"isrc":"../image/pimpacosmetic/frontend/web10.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/frontend/web10.webp","w":"1183","h":"771" },
+           { "imgid":11,"isrc":"../image/pimpacosmetic/frontend/web11.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/frontend/web11.webp","w":"1183","h":"1397" },
+           { "imgid":12,"isrc":"../image/pimpacosmetic/frontend/web12.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/frontend/web12.webp","w":"1183","h":"656" },
+           { "imgid":13,"isrc":"../image/pimpacosmetic/frontend/web13.webp","iserver" : "https://devphin.tech/port/pimpacosmetic/frontend/web13.webp","w":"1183","h":"713" }
+        ]
+    },
+    {
+        "id":12,
+        "page":[ "เข้าสู่ระบบ","ห้องพัก" ,"เพิ่มห้องพัก", "ปรับปรุงห้องพัก", "ประสบการณ์", "เพิ่มประสบการณ์", "ปรับปรุงประสบการณ์", "แกลอรี่", "เพิ่มแกลอรี่", "ปรับปรุงแกลอรี่", "กิจกรรม", "เพิ่มกิจกรรม", "ปรับปรุงกิจกรรม"
+        , "โปรโมชั่น", "เพิ่มโปรโมชั่น", "ปรับปรุงโปรโมชั่น", "ข้อความติดต่อ", "หมวดหมู่", "เพิ่มหมวดหมู่", "ข้อมูลเว็บ", "เพิ่มข้อความเว็บ", "แก้ไขข้อความเว็บ"
+        ],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/tongnacottage/backend/backtongna1.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna1.webp","w":"1183","h":"834" },
+           { "imgid":2,"isrc":"../image/tongnacottage/backend/backtongna2.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna2.webp","w":"1183","h":"561" },
+           { "imgid":3,"isrc":"../image/tongnacottage/backend/backtongna3.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna3.webp","w":"1183","h":"1709" },
+           { "imgid":4,"isrc":"../image/tongnacottage/backend/backtongna4.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna4.webp","w":"1183","h":"2016" },
+           { "imgid":5,"isrc":"../image/tongnacottage/backend/backtongna5.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna5.webp","w":"1183","h":"783" },
+           { "imgid":6,"isrc":"../image/tongnacottage/backend/backtongna6.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna6.webp","w":"1183","h":"822" },
+           { "imgid":7,"isrc":"../image/tongnacottage/backend/backtongna7.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna7.webp","w":"1183","h":"4463" },
+           { "imgid":8,"isrc":"../image/tongnacottage/backend/backtongna8.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna8.webp","w":"1183","h":"1927" },
+           { "imgid":9,"isrc":"../image/tongnacottage/backend/backtongna9.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna9.webp","w":"1183","h":"1030" },
+           { "imgid":10,"isrc":"../image/tongnacottage/backend/backtongna10.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna10.webp","w":"1183","h":"1665" },
+           { "imgid":11,"isrc":"../image/tongnacottage/backend/backtongna11.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna11.webp","w":"1183","h":"977" },
+           { "imgid":12,"isrc":"../image/tongnacottage/backend/backtongna12.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna12.webp","w":"1183","h":"721" },
+           { "imgid":13,"isrc":"../image/tongnacottage/backend/backtongna13.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna13.webp","w":"1183","h":"1006" },
+           { "imgid":14,"isrc":"../image/tongnacottage/backend/backtongna14.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna14.webp","w":"1183","h":"561" },
+           { "imgid":15,"isrc":"../image/tongnacottage/backend/backtongna15.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna15.webp","w":"1183","h":"595" },
+           { "imgid":16,"isrc":"../image/tongnacottage/backend/backtongna16.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna16.webp","w":"1183","h":"749" },
+           { "imgid":17,"isrc":"../image/tongnacottage/backend/backtongna17.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna17.webp","w":"1183","h":"561" },
+           { "imgid":18,"isrc":"../image/tongnacottage/backend/backtongna18.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna18.webp","w":"1183","h":"561" },
+           { "imgid":19,"isrc":"../image/tongnacottage/backend/backtongna19.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna19.webp","w":"1183","h":"561" },
+           { "imgid":20,"isrc":"../image/tongnacottage/backend/backtongna20.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna20.webp","w":"1183","h":"673" },
+           { "imgid":21,"isrc":"../image/tongnacottage/backend/backtongna21.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna21.webp","w":"1183","h":"599" },
+           { "imgid":22,"isrc":"../image/tongnacottage/backend/backtongna22.webp","iserver" : "https://devphin.tech/port/tongnacottage/backend/backtongna22.webp","w":"1183","h":"674" }
+          
+        ]
+    },
+    {
+        "id":13,
+        "page":[ "หน้าแรก","ห้องพัก" ,"รายละเอียดห้องพัก", "ประสบการณ์", "รายละเอียดประสบการณ์", "กิจกรรม", "รายละเอียดกิจกรรม", "แกลอรี่", "รายละเอียดแกลอรี่", "ตำแหน่ง", "ติดต่อเรา"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/tongnacottage/frontend/tongfront1.webp","iserver" : "https://devphin.tech/port/tongnacottage/frontend/tongfront1.webp","w":"1183","h":"3544" },
+           { "imgid":2,"isrc":"../image/tongnacottage/frontend/tongfront2.webp","iserver" : "https://devphin.tech/port/tongnacottage/frontend/tongfront2.webp","w":"1183","h":"957" },
+           { "imgid":3,"isrc":"../image/tongnacottage/frontend/tongfront3.webp","iserver" : "https://devphin.tech/port/tongnacottage/frontend/tongfront3.webp","w":"1183","h":"1546" },
+           { "imgid":4,"isrc":"../image/tongnacottage/frontend/tongfront4.webp","iserver" : "https://devphin.tech/port/tongnacottage/frontend/tongfront4.webp","w":"1183","h":"1247" },
+           { "imgid":5,"isrc":"../image/tongnacottage/frontend/tongfront5.webp","iserver" : "https://devphin.tech/port/tongnacottage/frontend/tongfront5.webp","w":"1183","h":"3242" },
+           { "imgid":6,"isrc":"../image/tongnacottage/frontend/tongfront6.webp","iserver" : "https://devphin.tech/port/tongnacottage/frontend/tongfront6.webp","w":"1183","h":"1352" },
+           { "imgid":7,"isrc":"../image/tongnacottage/frontend/tongfront7.webp","iserver" : "https://devphin.tech/port/tongnacottage/frontend/tongfront7.webp","w":"1183","h":"1451" },
+           { "imgid":8,"isrc":"../image/tongnacottage/frontend/tongfront8.webp","iserver" : "https://devphin.tech/port/tongnacottage/frontend/tongfront8.webp","w":"1183","h":"3984" },
+           { "imgid":9,"isrc":"../image/tongnacottage/frontend/tongfront9.webp","iserver" : "https://devphin.tech/port/tongnacottage/frontend/tongfront9.webp","w":"1183","h":"568" },
+           { "imgid":10,"isrc":"../image/tongnacottage/frontend/tongfront10.webp","iserver" : "https://devphin.tech/port/tongnacottage/frontend/tongfront10.webp","w":"1183","h":"1534" },
+           { "imgid":11,"isrc":"../image/tongnacottage/frontend/tongfront11.webp","iserver" : "https://devphin.tech/port/tongnacottage/frontend/tongfront11.webp","w":"1183","h":"935" }
+         
+          
+        ]
+    }
+    ,
+    {
+        "id":14,
+        "page":[ "เข้าสู่ระบบ" , "รายละเอียดงาน", "ขั้นตอนจ่ายงาน"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/assignment/zoomtask1.webp","iserver" : "https://devphin.tech/port/assignment/zoomtask1.webp","w":"1183","h":"700" },
+           { "imgid":2,"isrc":"../image/assignment/zoomtask2.webp","iserver" : "https://devphin.tech/port/assignment/zoomtask2.webp","w":"1183","h":"700" },
+           { "imgid":3,"isrc":"../image/assignment/zoomtask3.webp","iserver" : "https://devphin.tech/port/assignment/zoomtask3.webp","w":"1183","h":"700" }
+        ]
+    },
+    {
+        "id":15,
+        "page":[ "เข้าสู่ระบบ" , "แสดงรายละเอียดข้อมูล" , "ลงเวลาทำงาน", "สรุปเวลามาทำงานรายแผนก"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/timesheet/zoomtimesheet1.webp","iserver" : "https://devphin.tech/port/timesheet/zoomtimesheet1.webp","w":"1183","h":"700" },
+           { "imgid":2,"isrc":"../image/timesheet/zoomtimesheet2.webp","iserver" : "https://devphin.tech/port/timesheet/zoomtimesheet2.webp","w":"1183","h":"700" },
+           { "imgid":3,"isrc":"../image/timesheet/zoomtimesheet3.webp","iserver" : "https://devphin.tech/port/timesheet/zoomtimesheet3.webp","w":"1183","h":"700" },
+           { "imgid":4,"isrc":"../image/timesheet/zoomtimesheet4.webp","iserver" : "https://devphin.tech/port/timesheet/zoomtimesheet4.webp","w":"1183","h":"700" }
+        ]
+    },
+    {
+        "id":16,
+        "page":["Main Program","Detail"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/sharpfile/zoomsharp1.webp","iserver" : "https://devphin.tech/port/sharpfile/zoomsharp1.webp","w":"1183","h":"729" },
+           { "imgid":2,"isrc":"../image/sharpfile/zoomsharp2.webp","iserver" : "https://devphin.tech/port/sharpfile/zoomsharp2.webp","w":"1183","h":"729" }
+        ]
+    },
+    {
+        "id":17,
+        "page":["Main Program" , "แสดงข้อมูลเส้นถนน", "รายละเอียดข้อมูลเส้นถนน", "รายละเอียดข้อมูลเส้นถนน2", "ข้อมูลถนนภาพรวม", "เมื่อพบข้อมูลผิดพลาด Export File", "Image File"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/charp-check/zoomcharpcheck1.webp","iserver" : "https://devphin.tech/port/charp-check/zoomcharpcheck1.webp","w":"1183","h":"729" },
+           { "imgid":2,"isrc":"../image/charp-check/zoomcharpcheck3.webp","iserver" : "https://devphin.tech/port/charp-check/zoomcharpcheck3.webp","w":"1183","h":"729" },
+           { "imgid":3,"isrc":"../image/charp-check/zoomcharpcheck4.webp","iserver" : "https://devphin.tech/port/charp-check/zoomcharpcheck4.webp","w":"1183","h":"729" },
+           { "imgid":4,"isrc":"../image/charp-check/zoomcharpcheck5.webp","iserver" : "https://devphin.tech/port/charp-check/zoomcharpcheck5.webp","w":"1183","h":"729" },
+           { "imgid":5,"isrc":"../image/charp-check/zoomcharpcheck6.webp","iserver" : "https://devphin.tech/port/charp-check/zoomcharpcheck6.webp","w":"1183","h":"729" },
+           { "imgid":6,"isrc":"../image/charp-check/zoomcharpcheck7.webp","iserver" : "https://devphin.tech/port/charp-check/zoomcharpcheck7.webp","w":"1183","h":"729" },
+           { "imgid":7,"isrc":"../image/charp-check/zoomcharpcheck8.webp","iserver" : "https://devphin.tech/port/charp-check/zoomcharpcheck8.webp","w":"1183","h":"729" }
+        ]
+    },
+    {
+        "id":18,
+        "page":["Main Program" , "Detail"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/charp-insert/zoomcharpinsert1.webp","iserver" : "https://devphin.tech/port/charp-insert/zoomcharpinsert1.webp","w":"1183","h":"729" },
+           { "imgid":2,"isrc":"../image/charp-insert/zoomcharpinsert2.webp","iserver" : "https://devphin.tech/port/charp-insert/zoomcharpinsert2.webp","w":"1183","h":"729" }
+          
+        ]
+    },
+    {
+        "id":19,
+        "page":["Main Program","อัพโหลด ShapeFile","อัพโหลด ShapeFile ไม่ตรงชนิด","แสดงข้อความอัพโหลดไม่ตรงTYPE","แสดงข้อมูล ShapeFile เส้นถนน","แสดงข้อมูล ShapeFile ตำแหน่ง","เชื่อมต่อฐานข้อมูลเพื่อเพิ่มข้อมูล","กรณีฐานข้อมูลซ้ำ","โหลด Field จากฐานข้อมูล ","เลือก หัวข้อ ต้องการเพิ่ม","เพิ่มข้อมูล"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/charp-insert-sql/zoominsert1.webp","iserver" : "https://devphin.tech/port/charp-insert-sql/zoominsert1.webp","w":"1183","h":"768" },
+           { "imgid":2,"isrc":"../image/charp-insert-sql/zoominsert2.webp","iserver" : "https://devphin.tech/port/charp-insert-sql/zoominsert2.webp","w":"1183","h":"768" },
+           { "imgid":3,"isrc":"../image/charp-insert-sql/zoominsert3.webp","iserver" : "https://devphin.tech/port/charp-insert-sql/zoominsert3.webp","w":"1183","h":"768" },
+           { "imgid":4,"isrc":"../image/charp-insert-sql/zoominsert4.webp","iserver" : "https://devphin.tech/port/charp-insert-sql/zoominsert4.webp","w":"1183","h":"768" },
+           { "imgid":5,"isrc":"../image/charp-insert-sql/zoominsert5.webp","iserver" : "https://devphin.tech/port/charp-insert-sql/zoominsert5.webp","w":"1183","h":"768" },
+           { "imgid":6,"isrc":"../image/charp-insert-sql/zoominsert6.webp","iserver" : "https://devphin.tech/port/charp-insert-sql/zoominsert6.webp","w":"1183","h":"768" },
+           { "imgid":7,"isrc":"../image/charp-insert-sql/zoominsert7.webp","iserver" : "https://devphin.tech/port/charp-insert-sql/zoominsert7.webp","w":"1183","h":"768" },
+           { "imgid":8,"isrc":"../image/charp-insert-sql/zoominsert8.webp","iserver" : "https://devphin.tech/port/charp-insert-sql/zoominsert8.webp","w":"1183","h":"768" },
+           { "imgid":9,"isrc":"../image/charp-insert-sql/zoominsert9.webp","iserver" : "https://devphin.tech/port/charp-insert-sql/zoominsert9.webp","w":"1183","h":"768" },
+           { "imgid":10,"isrc":"../image/charp-insert-sql/zoominsert10.webp","iserver" : "https://devphin.tech/port/charp-insert-sql/zoominsert10.webp","w":"1183","h":"768" },
+           { "imgid":11,"isrc":"../image/charp-insert-sql/zoominsert11.webp","iserver" : "https://devphin.tech/port/charp-insert-sql/zoominsert11.webp","w":"1183","h":"768" }
+         
+        ]
+    },
+    {
+        "id":20,
+        "page":["หน้าแรก","แสดงคิวผู้ป่วย","หน้าจอเรียกคิว เจ้าหน้าที่","หน้าจอเรียกคิว ที่ทำการ Hold ผู้ป่วย","หน้าจอเรียกคิว แล้วเสร็จ"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/uidashqueue/zoomuidashqueue1.webp","iserver" : "https://devphin.tech/port/zoomuidashqueue1.webp","w":"1183","h":"600" },
+           { "imgid":2,"isrc":"../image/uidashqueue/zoomuidashqueue2.webp","iserver" : "https://devphin.tech/port/zoomuidashqueue2.webp","w":"1183","h":"600" },
+           { "imgid":3,"isrc":"../image/uidashqueue/zoomuidashqueue3.webp","iserver" : "https://devphin.tech/port/zoomuidashqueue3.webp","w":"1183","h":"600" },
+           { "imgid":4,"isrc":"../image/uidashqueue/zoomuidashqueue4.webp","iserver" : "https://devphin.tech/port/zoomuidashqueue4.webp","w":"1183","h":"600" },
+           { "imgid":5,"isrc":"../image/uidashqueue/zoomuidashqueue5.webp" ,"iserver" : "https://devphin.tech/port/zoomuidashqueue5.webp","w":"1183","h":"600" }
+         
+        ]
+    },
+    {
+        "id":21,
+        "page":["แดชบอร์ด","ดูภาพรวมหมอ จำนวนการตรวจ","รายละเอียดข้อมูลแพทย์","รายละเอียดแพทย์ แสดงจำนวนรอ","บันทึกข้อมูลแพทย์ว่างหรือไม่ว่าง","ห้องตรวจ รายชื่อแพทย์ออกตรวจ","เพิ่มแพทย์ ตามห้องตรวจที่ว่าง","หน้าสรุปรายชื่อแพทย์ออกตรวจ","แสดงรายชื่อแพทย์ออกตรวจ","แสดงข้อมูลเรียกคิว","แสดงข้อมูลเรียกคิว สีแดงคือเรียกคิวแล้ว","แสดงข้อมูลเรียกคิวแล้วไม่มีการตอบรับ"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/managequeue/zoommanagequeue1.webp","iserver" : "https://devphin.tech/port/zoommanagequeue1.webp","w":"1183","h":"700" },
+           { "imgid":2,"isrc":"../image/managequeue/zoommanagequeue2.webp","iserver" : "https://devphin.tech/port/zoommanagequeue2.webp","w":"1183","h":"700" },
+           { "imgid":3,"isrc":"../image/managequeue/zoommanagequeue3.webp","iserver" : "https://devphin.tech/port/zoommanagequeue3.webp","w":"1183","h":"700" },
+           { "imgid":4,"isrc":"../image/managequeue/zoommanagequeue6.webp","iserver" : "https://devphin.tech/port/zoommanagequeue6.webp","w":"1183","h":"700" },
+           { "imgid":5,"isrc":"../image/managequeue/zoommanagequeue7.webp","iserver" : "https://devphin.tech/port/zoommanagequeue7.webp","w":"1183","h":"700" },
+           { "imgid":6,"isrc":"../image/managequeue/zoommanagequeue4.webp","iserver" : "https://devphin.tech/port/zoommanagequeue4.webp","w":"1183","h":"700" },
+           { "imgid":7,"isrc":"../image/managequeue/zoommanagequeue5.webp" ,"iserver" : "https://devphin.tech/port/zoommanagequeue5.webp","w":"1183","h":"700" },
+           { "imgid":8,"isrc":"../image/managequeue/zoommanagequeueetc.webp" ,"iserver" : "https://devphin.tech/port/zoommanagequeueetc.webp","w":"1183","h":"700" },
+           { "imgid":9,"isrc":"../image/managequeue/zoommanagequeue8.webp" ,"iserver" : "https://devphin.tech/port/zoommanagequeue8.webp","w":"1183","h":"700" },
+           { "imgid":10,"isrc":"../image/managequeue/zoommanagequeue9.webp" ,"iserver" : "https://devphin.tech/port/zoommanagequeue9.webp","w":"1183","h":"700" },
+           { "imgid":11,"isrc":"../image/managequeue/zoommanagequeue10.webp" ,"iserver" : "https://devphin.tech/port/zoommanagequeue10.webp","w":"1183","h":"700" },
+           { "imgid":12,"isrc":"../image/managequeue/zoommanagequeue11.webp" ,"iserver" : "https://devphin.tech/port/zoommanagequeue11.webp","w":"1183","h":"700" }
+          
+         
+        ]
+    },
+    {
+        "id":22,
+        "page":["หน้าแรก","ตารางนัดหมายแพทย์"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/panangkao/panangkao1.webp","iserver" : "https://devphin.tech/port/panangkao1.webp","w":"1183","h":"700" },
+           { "imgid":2,"isrc":"../image/panangkao/panangkao2.webp","iserver" : "https://devphin.tech/port/panangkao2.webp","w":"1183","h":"700" }
+        
+         
+        ]
+    },
+    {
+        "id":23,
+        "page":["หน้าแรก","ค้นหาข้อมูลเส้นถนนทั้งประเทศไทย" ,"ค้นหาข้อมูลเส้นถนนตามภาค","ค้นหาข้อมูลเส้นถนนตามจังหวัด","แสดงข้อมูลจังหวัดที่เลือก","กรองข้อมูลประเภทโครงการ","เลือกข้อมูลตามประเภทโครงการ","กรองข้อมูลตามงบประมาณ","ข้อมูลถนนในจังหวัดเส้นทางร่วม"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/roadshow/zoomroadshow1.webp","iserver" : "https://devphin.tech/port/roadshow/zoomroadshow1.webp","w":"1183","h":"650" },
+           { "imgid":2,"isrc":"../image/roadshow/zoomroadshow3.webp","iserver" : "https://devphin.tech/port/roadshow/zoomroadshow3.webp","w":"1183","h":"650" },
+           { "imgid":3,"isrc":"../image/roadshow/zoomroadshow2.webp","iserver" : "https://devphin.tech/port/roadshow/zoomroadshow2.webp","w":"1183","h":"650" },
+           { "imgid":4,"isrc":"../image/roadshow/zoomroadshow4.webp","iserver" : "https://devphin.tech/port/roadshow/zoomroadshow4.webp","w":"1183","h":"650" },
+           { "imgid":5,"isrc":"../image/roadshow/zoomroadshow5.webp","iserver" : "https://devphin.tech/port/roadshow/zoomroadshow5.webp","w":"1183","h":"650" },
+           { "imgid":6,"isrc":"../image/roadshow/zoomroadshow6.webp","iserver" : "https://devphin.tech/port/roadshow/zoomroadshow6.webp","w":"1183","h":"650" },
+           { "imgid":7,"isrc":"../image/roadshow/zoomroadshow7.webp","iserver" : "https://devphin.tech/port/roadshow/zoomroadshow7.webp","w":"1183","h":"650" },
+           { "imgid":8,"isrc":"../image/roadshow/zoomroadshow8.webp","iserver" : "https://devphin.tech/port/roadshow/zoomroadshow8.webp","w":"1183","h":"650" },
+           { "imgid":9,"isrc":"../image/roadshow/zoomroadshow9.webp","iserver" : "https://devphin.tech/port/roadshow/zoomroadshow9.webp","w":"1183","h":"650" }
+        
+         
+        ]
+    },
+    {
+        "id":24,
+        "page":["หน้าแรก" , "สรุปราคาสั้งซื้อ"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/331golf/zoomport13.webp","iserver" : "https://devphin.tech/port/zoomport13.webp","w":"1183","h":"768" },
+           { "imgid":2,"isrc":"../image/331golf/zoomport14.webp","iserver" : "https://devphin.tech/port/zoomport14.webp","w":"1183","h":"768" }
+          
+        
+         
+        ]
+    },
+    {
+        "id":25,
+        "page":["หน้าแรก"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/wat/zoomportwat1.webp","iserver" : "https://devphin.tech/port/zoomportwat1.webp","w":"1183","h":"650" }
+          
+        
+         
+        ]
+    },
+    {
+        "id":26,
+        "page":["หน้าแสดง รพ.แม่ข่าย" ,"หน้าแสดง รพ.ลูกข่าย"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/stemi/zoomstemi1.webp","iserver" : "https://devphin.tech/port/zoomstemi1.webp","w":"1183","h":"950" },
+           { "imgid":2,"isrc":"../image/stemi/zoomstemi2.webp","iserver" : "https://devphin.tech/port/zoomstemi2.webp","w":"1183","h":"950" }
+          
+        
+         
+        ]
+    },
+    {
+        "id":27,
+        "page":["เข้าสู่ระบบ" ,"จัดการโปรโมชั่น" , "จัดการรีวิว เคส" , "จัดการ บริการ"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/grandesta/zoommanagelogin.webp","iserver" : "https://devphin.tech/port/zoommanagelogin.webp","w":"1183","h":"950" },
+           { "imgid":2,"isrc":"../image/grandesta/zoommanagepromotion.webp","iserver" : "https://devphin.tech/port/zoommanagepromotion.webp","w":"1183","h":"950" },
+           { "imgid":3,"isrc":"../image/grandesta/zoommanagereview.webp","iserver" : "https://devphin.tech/port/zoommanagereview.webp","w":"1183","h":"950" },
+           { "imgid":4,"isrc":"../image/grandesta/zoommanageservice.webp","iserver" : "https://devphin.tech/port/zoommanageservice.webp","w":"1183","h":"950" }
+          ]
+    },
+    {
+        "id":28,
+        "page":["หน้าแรก" ,"โปรโมชั่น" , "รีวิว" ],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/grandesta/zoomgrandestahome.webp","iserver" : "https://devphin.tech/port/zoomgrandestahome.webp","w":"1183","h":"1896" },
+           { "imgid":2,"isrc":"../image/grandesta/zoomgrandestapromotion.webp","iserver" : "https://devphin.tech/port/zoomgrandestapromotion.webp","w":"1183","h":"1458" },
+           { "imgid":3,"isrc":"../image/grandesta/zoomgrandestareview.webp","iserver" : "https://devphin.tech/port/zoomgrandestareview.webp","w":"1183","h":"1100" }
+          
+          ]
+    },
+    {
+        "id":29,
+        "page":["แดชบอร์ด" ,"เพิ่มข้อความ" , "เพิ่มโดเมน" ],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/dashboardpost/portpostcontent1.webp","iserver" : "https://devphin.tech/port/portpostcontent1.webp","w":"1183","h":"770" },
+           { "imgid":2,"isrc":"../image/dashboardpost/portpostcontent2.webp","iserver" : "https://devphin.tech/port/portpostcontent2.webp","w":"1183","h":"770" },
+           { "imgid":3,"isrc":"../image/dashboardpost/portpostcontent3.webp","iserver" : "https://devphin.tech/port/portpostcontent3.webp","w":"1183","h":"770" }
+          
+          ]
+    },
+    {
+        "id":30,
+        "page":["หน้าแรก" ,"เพิ่มผู้ป่วยใหม่" , "เพิ่มผู้ป่วยใหม่(อื่นๆ)" , "เพิ่มผู้ป่วยใหม่(ที่อยู่)" ,"เพิ่มผู้ป่วยใหม่(ถ่ายรูป)","เพิ่มผู้ป่วยใหม่(แพ้ยา)", "รายละเอียดผู้ป่วย","พรีวิว OPDCARD" ,"PDF OPDCARD" , "ข้อมูลผู้ป่วย" , "เพิ่มข้อมูล(แพ้ยา)" , "รายละเอียดแพ้ยา", "ปริ้น PDF OPDCARD","ปรับปรุง Visit Slip","จ่ายยาผู้ป่วย","จ่ายยาผู้ป่วย(เพิ่ม)","รายละเอียดจ่ายยา","ใบเสร็จจ่ายยา","ค่าใช้จ่ายอื่นๆ","พรีวิว ค่าใช้จ่ายอื่นๆ","ใบเสร็จค่าใช้จ่ายอื่นๆ","ปริ้น PDF VISIT SLIP","ปิดการชำระ","เพิ่มข้อมูลรายจ่ายนอกรายการ","รายการจ่ายบิล","ขั้นตอนชำระเงิน 1","ขั้นตอนชำระเงิน 2","ขั้นตอนชำระเงิน 3","พรีวิว ใบเสร็จรับเงิน","เอกสาร PDF ใบเสร็จรับเงิน","รับสินค้าเข้า คลีนิก","เพิ่มสินค้าเข้า คลีนิก","รายละเอียดสินค้านำเข้า","จ่ายสินค้าออก","เพิ่มรายการจ่ายสินค้าออก","แสดงรายการจ่ายสินค้าออก","รับสินค้าจากผู้ผลิต","รายการสินค้าคงเหลือ","เพิ่มรายการยาเข้า คลีนิก สำหรับผู้ป่วย"],
+        "imglist":
+        [
+           { "imgid":1,"isrc":"../image/iclinic/zoomclinic1.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic1.webp","w":"1183","h":"950" },
+           { "imgid":2,"isrc":"../image/iclinic/zoomclinic2.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic2.webp","w":"1183","h":"950" },
+           { "imgid":3,"isrc":"../image/iclinic/zoomclinic3.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic3.webp","w":"1183","h":"950" },
+           { "imgid":4,"isrc":"../image/iclinic/zoomclinic4.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic4.webp","w":"1183","h":"950" },
+           { "imgid":5,"isrc":"../image/iclinic/zoomclinic5.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic5.webp","w":"1183","h":"950" },
+           { "imgid":6,"isrc":"../image/iclinic/zoomclinic6.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic6.webp","w":"1183","h":"950" },
+           { "imgid":7,"isrc":"../image/iclinic/zoomclinic7.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic7.webp","w":"1183","h":"950" },
+           { "imgid":8,"isrc":"../image/iclinic/zoomclinic8.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic8.webp","w":"1183","h":"950" },
+           { "imgid":9,"isrc":"../image/iclinic/zoomclinic9.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic9.webp","w":"1183","h":"950" },
+           { "imgid":10,"isrc":"../image/iclinic/zoomclinic10.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic10.webp","w":"1183","h":"950" },
+           { "imgid":11,"isrc":"../image/iclinic/zoomclinic11.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic11.webp","w":"1183","h":"950" },
+           { "imgid":12,"isrc":"../image/iclinic/zoomclinic12.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic12.webp","w":"1183","h":"950" },
+           { "imgid":13,"isrc":"../image/iclinic/zoomclinic13.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic13.webp","w":"1183","h":"950" },
+           { "imgid":14,"isrc":"../image/iclinic/zoomclinic14.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic14.webp","w":"1183","h":"950" },
+           { "imgid":15,"isrc":"../image/iclinic/zoomclinic15.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic15.webp","w":"1183","h":"950" },
+           { "imgid":16,"isrc":"../image/iclinic/zoomclinic16.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic16.webp","w":"1183","h":"950" },
+           { "imgid":17,"isrc":"../image/iclinic/zoomclinic17.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic17.webp","w":"1183","h":"950" },
+           { "imgid":18,"isrc":"../image/iclinic/zoomclinic18.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic18.webp","w":"1183","h":"950" },
+           { "imgid":19,"isrc":"../image/iclinic/zoomclinic19.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic19.webp","w":"1183","h":"950" },
+           { "imgid":20,"isrc":"../image/iclinic/zoomclinic20.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic20.webp","w":"1183","h":"950" },
+           { "imgid":21,"isrc":"../image/iclinic/zoomclinic21.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic21.webp","w":"1183","h":"950" },
+           { "imgid":22,"isrc":"../image/iclinic/zoomclinic22.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic22.webp","w":"1183","h":"950" },
+           { "imgid":23,"isrc":"../image/iclinic/zoomclinic23.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic23.webp","w":"1183","h":"950" },
+           { "imgid":24,"isrc":"../image/iclinic/zoomclinic24.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic24.webp","w":"1183","h":"950" },
+           { "imgid":25,"isrc":"../image/iclinic/zoomclinic25.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic25.webp","w":"1183","h":"950" },
+           { "imgid":26,"isrc":"../image/iclinic/zoomclinic26.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic26.webp","w":"1183","h":"950" },
+           { "imgid":27,"isrc":"../image/iclinic/zoomclinic27.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic27.webp","w":"1183","h":"950" },
+           { "imgid":28,"isrc":"../image/iclinic/zoomclinic28.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic28.webp","w":"1183","h":"950" },
+           { "imgid":29,"isrc":"../image/iclinic/zoomclinic29.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic29.webp","w":"1183","h":"950" },
+           { "imgid":30,"isrc":"../image/iclinic/zoomclinic30.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic30.webp","w":"1183","h":"950" },
+           { "imgid":31,"isrc":"../image/iclinic/zoomclinic31.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic31.webp","w":"1183","h":"950" },
+           { "imgid":32,"isrc":"../image/iclinic/zoomclinic32.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic32.webp","w":"1183","h":"950" },
+           { "imgid":33,"isrc":"../image/iclinic/zoomclinic33.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic33.webp","w":"1183","h":"950" },
+           { "imgid":34,"isrc":"../image/iclinic/zoomclinic34.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic34.webp","w":"1183","h":"950" },
+           { "imgid":35,"isrc":"../image/iclinic/zoomclinic35.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic35.webp","w":"1183","h":"950" },
+           { "imgid":36,"isrc":"../image/iclinic/zoomclinic36.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic36.webp","w":"1183","h":"950" },
+           { "imgid":37,"isrc":"../image/iclinic/zoomclinic37.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic37.webp","w":"1183","h":"950" },
+           { "imgid":38,"isrc":"../image/iclinic/zoomclinic38.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic38.webp","w":"1183","h":"950" },
+           { "imgid":39,"isrc":"../image/iclinic/zoomclinic39.webp","iserver" : "https://devphin.tech/port/iclinic/zoomclinic39.webp","w":"1183","h":"950" }
+        ]
+    }
+]

@@ -1,0 +1,177 @@
+  @font-face {
+    font-family: "Kanit";
+    src: local("Kanit") , url("../font/Kanit/Kanit-ExtraLight.ttf") format("truetype");
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: "Kanit-light";
+    src: local("Kanit-light") , url("../font/Kanit/Kanit-ExtraLight.ttf") format("truetype");
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: "Kanit-Medium";
+    src: local("Kanit-Medium") , url("../font/Kanit/Kanit-Medium.ttf") format("truetype");
+    font-weight: bold;
+  }
+  body
+  {
+        font-family: "Kanit";
+        font-size: 14px;
+        font-weight: 400;
+        background: #FFFFFF;
+        color: #000;
+  }
+  .fontKanitLight{
+    font-family: "Kanit-light";
+  }
+  .fontKanit {
+    font-family: "Kanit";
+  }
+  .fontKanitbold {
+    font-family: "Kanit-bold";
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /*object-fit: fill;*/
+    object-fit: cover;
+  }
+
+
+  .swiperMobile {
+    width: 100%;
+    height: auto;
+  }
+  
+  .swiperMobile .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    margin-top: 20px;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiperMobile .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+    /*object-fit: fill;*/
+    object-fit: cover;
+  }
+  
+  .embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* CSS for responsive iframe */
+/* ========================= */
+
+/* outer wrapper: set max-width & max-height; max-height greater than padding-bottom % will be ineffective and height will = padding-bottom % of max-width */
+#Iframe-Master-CC-and-Rs {
+  max-width: 512px;
+  max-height: 100%; 
+  overflow: hidden;
+}
+
+/* inner wrapper: make responsive */
+.responsive-wrapper {
+  position: relative;
+  height: 0;    /* gets height from padding-bottom */
+  
+  /* put following styles (necessary for overflow and scrolling handling on mobile devices) inline in .responsive-wrapper around iframe because not stable in CSS:
+    -webkit-overflow-scrolling: touch; overflow: auto; */
+  
+}
+ 
+.responsive-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* padding-bottom = h/w as % -- sets aspect ratio */
+/* YouTube video aspect ratio */
+.responsive-wrapper-wxh-572x612 {
+  padding-bottom: 107%;
+}
+
+/* general styles */
+/* ============== */
+.set-border {
+  border: 5px inset #4f4f4f;
+}
+.set-box-shadow { 
+  -webkit-box-shadow: 4px 4px 14px #4f4f4f;
+  -moz-box-shadow: 4px 4px 14px #4f4f4f;
+  box-shadow: 4px 4px 14px #4f4f4f;
+}
+.set-padding {
+  padding: 40px;
+}
+.set-margin {
+  margin: 30px;
+}
+.center-block-horiz {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.btnheader{
+  margin: 5px;
+  box-shadow: 3px 4px 0px 0px #2362a7;
+  background: linear-gradient(to bottom, #007bff 5%, #007bff 100%);
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #007bff;
+  width: 100%;
+  text-align: left;
+
+}
+.zoom {
+ 
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+  z-index: 1000;
+}
+
+.zoom:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+}
+
+

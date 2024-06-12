@@ -1,0 +1,90 @@
+[
+    {
+        "pre":{
+            "keys":{"th": "", "en":"" },
+            "vals":{"th":"นาย","en":"Mr."}
+        },
+        "name":{
+            "keys":{"th": "", "en":"" },
+            "vals":{"th":"สันติภาพ พลสุพี" , "en":"Santipap ponsupee"}
+        },
+        "perinfo":{
+            "keys":{"th":"เพศ", "en":"Sex" },
+            "vals":{"th":"ชาย" , "en":"Male"}
+         },
+         "dob":{
+            "keys":{"th": "วันเกิด", "en":"Date of Birth" },
+            "vals":{"th":"28 มกราคม 2535" , "en":" 28 January 1989"}
+         },
+         "age":{
+            "keys":{"th": "อายุ", "en":"Age" },
+            "vals":{"th":"35 ปี" , "en":"35 year"}
+         },
+         "military":{
+            "keys":{"th":"สถานะทางทหาร", "en":"Military Status" },
+            "vals":{"th":"กำลังสำรอง(รด.)" , "en":"Exempted"}
+         },
+         "addr":{
+            "keys":{"th":"ที่อยู่", "en":"Address" },
+            "vals":{"th":"7/266 หมู่2 หมู่บ้าน โนโววิลล์ ลำลูกกา คลอง 2  อำเภอลำลูกกา ตำบล คูคต จังหวัด ปทุมธานี 12130" , "en":"7/266 Novovile village No.2 Lamlukka Road , Khu Khot Sub-district , Lamlukka District , Pathum Thani 12130"}
+         },
+         "weight":{
+            "keys":{"th":"น้ำหนัก", "en":"weight"},
+            "vals":{"th":"56 กิโลกรัม" , "en":"56 kg"}
+         },
+         "height":{
+            "keys":{"th":"สูง", "en":"height" },
+            "vals":{"th":"160 เซนติเมตร" , "en":"160 cm"}
+         },
+         "degree":{
+            "keys":{"th":"Bachelor's Degree", "en":"ปริญญาตรี" },
+            "vals":{"th":"มหาวิทยาลัยเกษตรศาสตร์ ( วิทยาเขตกำแพงแสน ) 2558-2550" , "en":"Kasetsart University (Kamphaeng Saen Campus) 2014-2007"}
+         },
+         "SecondarySchool":{
+            "keys":{"th":"Secondary School", "en":"มัธยมศึกษา" },
+            "vals":{"th":"โรงเรียนฤทธิยะวรรณาลัย (ม1-ม6)" , "en":"Ritiyawannalai School Grade 7-12"}
+         },
+         "menu":{
+            "keys":["Home","Portfolio","About" ,"Other" , "Contact"],
+            "vals":["หน้าแรก","ผลงาน","เกี่ยวกับ","งานอื่นๆ","ติดต่อเรา"]
+         },
+         "abouts":{
+            "keys":{"th":"","en":""},
+            "vals":{"th":"","en":""}
+         },
+         "expermenu":{
+            "menu0":{
+                "th":"เม.ย. 2567 - ม.ค. 2562","en":"Apr 2024 - Jan 2019"
+            },
+            "menu1":{
+                "th":"ต.ค. 2560 - ก.พ. 2560","en":"Oct 2017 - Feb 2017"
+            },
+            "menu2":{
+                 "th":"ม.ค. 2560 - พ.ค. 2558","en":"Jan 2017 - May 2015"
+            },
+            "menu3":{
+                "th":"พ.ค. 2558 - ก.ย. 2557","en":"May 2015 - Sep 2014"
+            },
+            "menu4":{
+                "th":"ก.ย. 2554 - พ.ค. 2554","en":"Sep 2011 - May 2011"
+            }
+         },
+         "skillother":{
+            "th":"ทักษะเพิ่มเติม",
+            "en":"Additional Skills"
+         },
+         "other":{
+            "th":"ส่วนงานอื่นๆ เพิ่มเติม",
+            "en":"Other Additional Work"
+         },
+         "workother0":{"th":"ปรับแต่ง PageSpeed Insights สำหรับ SEO","en":"Customize PageSpeed Insights for SEO"},
+         "workother1":{"th":"คู่มือการใช้งาน","en":"Document User Manual"},
+         "workother2":{"th":"Datadic Queue","en":"Datadic Queue"},
+         "contact":{"th":"ฝากข้อความ" , "en":"Contact"},
+         "place0":{"th":"ชื่อ" , "en":"Name"},
+         "place1":{"th":"ช่องทางติดต่อกลับ" , "en":"Tel"},
+         "place2":{"th":"ฝากข้อความ" , "en":"Message"},
+         "btns":{"th":"ส่งข้อความ" , "en":"Send"}
+
+    }
+]
