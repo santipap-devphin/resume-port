@@ -42,7 +42,7 @@
                     "start":"มกราคม 2562",
                     "end":"เมษายน 2567",
                     "content":[
-                            "พัฒนาระบบงาน Web Application ด้วย HTML , Javascript ,  PHP Codeigniter ,  ReactJS ,  GatsbyJS , NodeJS , NextJS , Wordpress , PHP",
+                            "พัฒนาระบบงาน Web Application ด้วย HTML , Javascript ,  PHP Codeigniter ,  React ,  GatsbyJS , NodeJS , NextJS , Wordpress , PHP",
                             "พัฒนาเว็บไชต์ React ด้วย ทรัพยากร React-router-dom , useState , useEffect , useRef , useContext , Datacontext , Swiper ",
                             "ปรับปรุง เว็บไชต์เดิมใน บริษัทให้ เป็น React",
                             "ออกแบบ Mockup Frontend เพื่อ ประกอบให้ลูกค้าตัดสินใจ",
@@ -57,7 +57,7 @@
                             "พัฒนา Short Code และ Hook เพื่อเพิ่มความสามารถ สำหรับ Wordpress",
                             "สร้าง Line Messaging API แบบโต้ตอบอัตโนมัติ เพื่อ ปฏิสัมพันธ์กับลูกค้า และ Flex Message เพื่อเพิ่มยอดขายของผลิตภัณฑ์ , เชื่อมต่อไปยังฐานข้อมูล สำหรับสมาชิก , เชื่อมต่อไปยัง Service ต่างๆ ที่ลูกค้าร้องขอ , ออกแบบ Rich Menu",
                             "พัฒนา ENDPOINT สำหรับ สำรองข้อมูล ก่อน INSERT เข้า ฐานข้อมูล และ ร้องขอข้อมูลไปยัง SERVICE ต่างๆ ภายในบริษัท",
-                            "พัฒนา DashBoard สำหรับ โปรเจ๊คต่างๆ เพื่อ บริหารจัดการ ตาม  Role(user, Editor , Admin)",
+                            "พัฒนา DashBoard สำหรับ โปรเจ็คต่างๆ เพื่อ บริหารจัดการ ตาม  Role(user, Editor , Admin)",
                             "พัฒนา ระบบ ส่ง Email Smtp เพื่อ ส่ง โปรโมชั่น เพิ่มเติม",
                             "วิเคราะห์ข้อมูล เพื่อทำ Model",
                             "ออกแบบฐานข้อมูล ด้วย MYSQL , SQLSERVER , MSSQL",
@@ -101,7 +101,7 @@
                 {
                     "id":2,
                     "work":"Junior Developer",
-                    "company":"ซีเทคกรุ๊ป คอนเซาท์เอ็นจิเนียร์(บริษัท เซ้าท์อี๊สท์เอเซียเทคโนโลยี่จํากัด)",
+                    "company":"ซีเทคกรุ๊ป คอนเซาท์เอ็นจิเนียร์(บริษัท เซ้าท์อี๊สท์เอเซียเทคโนโลยีจํากัด)",
                     "start":"พฤษภาคม 2558",
                     "end":"มกราคม 2560",
                     "content":[
@@ -143,7 +143,7 @@
                 {
                     "id":4,
                     "work":"PROGRAMMER(Trainee)",
-                    "company":"บริษัท เวล คอนเน็คเต็ท จํากัด",
+                    "company":"คณะ วิศวกรรมคอมพิวเตอร์ มหาวิทยาลัยเกษตรศาสตร์",
                     "start":"พฤษภาคม 2554",
                     "end":"กันยายน 2554",
                     "content":[
@@ -208,8 +208,8 @@
                     "start":"January 2019",
                     "end":"April 2024",
                     "content":[
-                            "Develop Web Application With HTML , Javascript ,  PHP Codeigniter ,  ReactJS ,  GatsbyJS , NodeJS , NextJS , Wordpress , PHP",
-                            "Develop Website ReactJS Environment React-router-dom , useState , useEffect , useRef , useContext , Datacontext , Swiper",
+                            "Develop Web Application With HTML , Javascript ,  PHP Codeigniter ,  React ,  GatsbyJS , NodeJS , NextJS , Wordpress , PHP",
+                            "Develop Website React Environment React-router-dom , useState , useEffect , useRef , useContext , Datacontext , Swiper",
                             "Customize Website in Company Convert To React",
                             "Design Mockup Frontend Present Customer",
                             "Design and Build User Interface(UI) With Bootstrap , React-Bootstrap Material UI(MUI) , Ant Design , jQuery , CSS3 support Responsive Mobile",
