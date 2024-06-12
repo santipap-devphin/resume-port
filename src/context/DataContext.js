@@ -14,7 +14,8 @@ export const DataProvider = ({children}) => {
               localStorage.getItem("langweb") === "null" ? langss["Th"] 
               : localStorage.getItem("langweb") === undefined ? langss["Th"] 
                 : localStorage.getItem("langweb") === "Th" ? langss["Th"] 
-                  : langss["En"] 
+                  :  localStorage.getItem("langweb") === "En" ? langss["En"] 
+                    : langss["Th"] 
     );
 
      const theme = createTheme({

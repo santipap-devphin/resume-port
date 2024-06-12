@@ -28,7 +28,7 @@ const Home = () => {
   const {language , setLanguage , styles}  = useContext(DataContext);
 
   const [expanded, setExpanded] = useState(false);
-  const [langWeb , setLangWeb]= useState(localStorage.getItem("langweb") === "null" ? "Th" : localStorage.getItem("langweb") === undefined ? "Th" : localStorage.getItem("langweb") === "Th" ? "Th" : "En");
+  const [langWeb , setLangWeb]= useState(localStorage.getItem("langweb") === "null" ? "Th" : localStorage.getItem("langweb") === undefined ? "Th" : localStorage.getItem("langweb") === "Th" ? "Th" : localStorage.getItem("langweb") === "En" ? "En" : "Th");
   const label = { inputProps: { 'aria-label': 'Switch language' } };
   const handleChange = (panel) => (event, isExpanded) => {
 
