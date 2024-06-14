@@ -31,7 +31,7 @@
             "menu":["หน้าแรก","ผลงาน","เกี่ยวกับ","งานอื่นๆ","ติดต่อเรา"],
             "skill":"ทักษะความสามารถ",
             "abouts":"เกี่ยวกับ",
-            "aboutstxt":"ข้าพเจ้า เชื่อว่า การมีวินัยเป็นพื้นฐานของการทำงานได้ดี ไม่ว่าจะเป็นการทำงานหรือ เรื่องในชีวิตประจำวัน หากเรามีวินัยแล้ว เราจะสามารถทำงานได้มีประสิทธิภาพ และสามารถทำงานได้ลุล่วงตามเวลาที่กำหนด ในโลกยุคปัจจุบัน เทคโนโลยีมีการเปลื่ยนแปลงค่อยข้างรวดเร็ว เทคโนโลยีเก่า ถูกแทนที่ด้วยเทคโนโลยีใหม่ๆ การฝึกฝนความมีวินัย ในตัวเองทำให้สามารถ เรียนรู้และ ศึกษา ความรู้ใหม่ๆ ได้อย่างเป็นขั้นเป็นตอน การทำอะไรด้วยความสม่ำเสมอ แม้จะใช้เวลาไม่เยอะในแต่ละวัน หากเราไม่หยุดเรียนรู้และทำมันเราก็จะสามารถพัฒนาตัวเองขึ้นได้",
+            "aboutstxt":"ข้าพเจ้า เชื่อว่า การมีวินัยเป็นพื้นฐานของการทำงานได้ดี ไม่ว่าจะเป็นการทำงานหรือ เรื่องในชีวิตประจำวัน หากเรามีวินัยแล้ว เราจะสามารถทำงานได้มีประสิทธิภาพ และสามารถทำงานได้ลุล่วงตามเวลาที่กำหนด ในโลกยุคปัจจุบัน เทคโนโลยีมีการเปลื่ยนแปลงค่อนข้างรวดเร็ว เทคโนโลยีเก่า ถูกแทนที่ด้วยเทคโนโลยีใหม่ๆ การฝึกฝนความมีวินัย ในตัวเองทำให้สามารถ เรียนรู้และ ศึกษา ความรู้ใหม่ๆ ได้อย่างเป็นขั้นเป็นตอน การทำอะไรด้วยความสม่ำเสมอ แม้จะใช้เวลาไม่เยอะในแต่ละวัน หากเราไม่หยุดเรียนรู้และทำมันเราก็จะสามารถพัฒนาตัวเองขึ้นได้",
             "port":"ผลงาน",
             "experience":"ประสบการณ์ทำงาน",
             "experiencecontent":[
@@ -75,7 +75,7 @@
                             "จัดการเว็บไชต์ส่วนอื่นๆด้วย Cpanel , Directadmin , Hostinger",
                             "ออกแบบ Format ข้อมูลด้วย JSON",
                             "ใช้ Github ในการ แชร์ Code" , 
-                            "ใช้ Docker File(docker compose) ในการ Deploy เว็บไชต์ไปยัง Server Digitalocean"
+                            "ใช้ Dockerfile(docker compose) ในการ Deploy เว็บไชต์ไปยัง Server Digitalocean"
                          ]
                 },
                 {
@@ -107,7 +107,7 @@
                     "content":[
                             "วิเคราะห์ความต้องการของลูกค้า และ พัฒนาระบบตามความต้องการ",
                             "วิเคราะห์ข้อมูลทางวิศวกรรมที่ได้จากแผนกต่างในบริษัท จัดทำ API ให้ง่ายต่อการร้องขอข้อมูล",
-                            "พัฒนาโปรแกรมด้วย C# , PHP, HTML, JSON with Javascript And JQuery,Ajax, Bootstrap ,Jqgrid, Wrap Bootstarp , Google Map api , MPDF , Ckeditor etc.",
+                            "พัฒนาโปรแกรมด้วย C# , PHP, HTML, JSON Javascript And JQuery,Ajax, Bootstrap ,Jqgrid, Wrap Bootstarp , Google Map api , MPDF , Ckeditor etc.",
                             "ออกแบบระบบภายในบริษัทด้วย C# Window Forms Application.",
                             "พัฒนาระบบนำเข้าข้อมูล Shapefile ส่วนงาน GIS (แผนที่)",
                             "พัฒนาระบบ แปลงข้อมูล Shapefile ให้อยู่ในรูปแบบ JSON",
@@ -241,7 +241,7 @@
                             "Development website with tools  Cpanel , Directadmin , Hostinger",
                             "Design Format JSON support API",
                             "Use Github for share Code",
-                            "use Docker File(docker compose)  Deploy website to Server Digitalocean"
+                            "use Dockerfile(docker compose)  Deploy website to Server Digitalocean"
                          ]
                 },
                 {
@@ -273,7 +273,7 @@
                     "content":[
                             "Analyze Customer Requirement And Develop Best Practices Within The Framework ",
                             "Analyze engineering data obtained from different departments in the company for build API as appropriate",
-                            "Develop program with C#,PHP, HTML, JSON with Javascript And JQuery,Ajax, Bootstrap ,Jqgrid, Wrap Bootstarp,Google Map api , MPDF , Ckeditor etc.",
+                            "Develop program with C#,PHP, HTML, JSON Javascript And JQuery,Ajax, Bootstrap ,Jqgrid, Wrap Bootstarp,Google Map api , MPDF , Ckeditor etc.",
                             "Design Programs within Company with C# Window Forms Application.",
                             "Develop import data  type Shapefile division GIS",
                             "Develop convert data Shapefile to format JSON",
@@ -294,7 +294,7 @@
                     "start":"SEPTEMBER 2014",
                     "end":"MAY 2015",
                     "content":[
-                            "Develop website support check price car insurance and  ecommerce website(PHP)",
+                            "Develop website support search products car insurance and  ecommerce website(PHP)",
                             "Design Database MYSQL",
                             "Car insurance analysis data to find the best products and query data that's appropriate.",
                             "Convert Data Each insurance company send to broker for Specified format  and import data to database (csv) and build API for request , response",
